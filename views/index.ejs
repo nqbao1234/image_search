@@ -3,22 +3,36 @@
     <head>
 	      <title>Image search microservice</title>
 	      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+         #title {
+             color: green;
+         }
+         body {
+             padding: 7%;
+         }
+        </style>
     </head>
     <body>
-	      <h1>Image search microservice</h1>
+	      <h1 id="title">Image search microservice</h1>
 	      <h2>(Freecodecamp API challenge)</h2>
         <br>
         <br>
 	      <h4>The user can search for images matching specific terms and choose the number of results returned. Each result will contain url, snippet, context, and thumbnail of the image.</h4>
         <p>
-            <b>Example:</b>
-            ...
+            <b>Example:</b> Let's search for "funny cats" and limit the results returned to 10.
+            <br>
+            <code>
+                <%= api1_str %>
+            </code>
         </p>
         <br>
         <h4> The user can also view the last ten search terms submitted to this microservice.</h4>
         <p>
-            <b>Usage:</b>
-            ...
+            <b>Usage: </b>
+            <br>
+            <code>
+                <%= api2_str %>
+            </code>
         </p>
     </body>
 </html>
